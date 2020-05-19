@@ -2,6 +2,7 @@
   export let name;
 
   let tails = "./images/tails-coin.png";
+  let heads = "./images/heads-coin.png";
   let randomNum = undefined;
   let tally = 0;
   let headsCount = 0;
