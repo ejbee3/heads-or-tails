@@ -12,5 +12,6 @@ This is a project template for [Svelte](https://svelte.dev) apps. It lives at ht
 
 ### TODOs
 
-- Draw a heads and tails side of a coin and show the appropriate side when flipped
+- Draw a heads and tails side of a coin and show the appropriate side when flipped (completed!)
 - Add an animation to show the coin flip on button press
+- Fix the reset button (in progress)
