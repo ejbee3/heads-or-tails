@@ -1,5 +1,7 @@
 <script>
   export let name;
+
+  let tails = "./images/tails-coin.png";
   let randomNum = undefined;
   let tally = 0;
   let headsCount = 0;
@@ -46,10 +48,10 @@
 <main>
   <h1>Hello {name}, you cutie pie you 😗</h1>
   {#if randomNum < 0.5}
-    <h2>Heads!</h2>
+    <img src={heads} alt="the words heads on a grey coin" />
   {/if}
   {#if randomNum >= 0.5}
-    <h2>Tails!</h2>
+    <img src={tails} alt="the words tails on a grey coin" />
   {/if}
   <button on:click={flipCoin}>Flip a coin!</button>
 
